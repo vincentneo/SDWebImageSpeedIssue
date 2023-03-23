@@ -6,16 +6,19 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            WebImage(url: URL(string: "https://media.tenor.com/oTeBa4EVepMAAAAM/business-cat-working.gif")!)
+                .resizable()
+                .playbackMode(.normal)
+                .scaledToFit()
+                .frame(width: 130, height: 130)
+            Text("SDWebImage")
+            Text("5.15.5")
         }
-        .padding()
     }
 }
 
