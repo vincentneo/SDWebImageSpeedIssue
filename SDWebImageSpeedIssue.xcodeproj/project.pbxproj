@@ -469,7 +469,7 @@
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
 				kind = exactVersion;
-				version = 5.15.5;
+				version = 5.15.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

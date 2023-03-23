@@ -17,7 +17,7 @@ struct ContentView: View {
                 .scaledToFit()
                 .frame(width: 130, height: 130)
             Text("SDWebImage")
-            Text("5.15.5")
+            Text("5.15.2")
         }
     }
 }
